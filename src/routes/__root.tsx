@@ -77,13 +77,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Litôranea Ambiental" },
+      { title: "Litorânea Ambiental" },
       {
         name: "description",
         content:
           "Empresa Júnior de Ciências Ambientais da UFC — soluções ambientais com conhecimento e sustentabilidade.",
       },
-      { name: "author", content: "Litôranea Ambiental" },
+      { name: "author", content: "Litorânea Ambiental" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

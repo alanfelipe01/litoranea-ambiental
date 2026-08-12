@@ -4,7 +4,7 @@ export function Logo({ className = "h-10 w-auto" }: { className?: string }) {
   return (
     <img
       src={logoUrl}
-      alt="Logo Litôranea Ambiental — Empresa Júnior"
+      alt="Logo Litorânea Ambiental — Empresa Júnior"
       loading="lazy"
       className={className}
     />

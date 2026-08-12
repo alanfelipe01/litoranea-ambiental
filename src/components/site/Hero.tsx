@@ -32,7 +32,7 @@ export function Hero() {
           </Reveal>
           <Reveal delay={90}>
             <h1 className="mt-5 text-[clamp(2.6rem,8vw,5rem)] leading-[0.95] font-semibold tracking-tight text-on-forest">
-              Litôranea
+              Litorânea
               <span className="block text-olive">Ambiental</span>
             </h1>
           </Reveal>
