@@ -1,4 +1,4 @@
-import { Leaf, Scale, Award, Lightbulb } from "lucide-react";
+import { Leaf, Scale, Award, Lightbulb, Users } from "lucide-react";
 import { Reveal } from "./Reveal";
 
 const VALUES = [
@@ -6,6 +6,7 @@ const VALUES = [
   { name: "Ética", Icon: Scale },
   { name: "Excelência", Icon: Award },
   { name: "Inovação", Icon: Lightbulb },
+  { name: "Colaboração", Icon: Users },
 ];
 
 export function Mission() {
@@ -23,7 +24,9 @@ export function Mission() {
       <div className="relative mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid gap-10 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
           <Reveal>
-            <p className="eyebrow">Missão</p>
+            <h2 className="font-display text-[clamp(2.4rem,6vw,4rem)] leading-[1] font-semibold tracking-tight text-on-forest">
+              Missão
+            </h2>
             <span className="mt-5 block h-px w-24 bg-accent" />
           </Reveal>
           <Reveal delay={90}>
@@ -38,7 +41,7 @@ export function Mission() {
           <p className="eyebrow mt-20">Valores</p>
         </Reveal>
 
-        <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {VALUES.map((v, i) => (
             <Reveal as="li" key={v.name} delay={i * 90}>
               <div className="group h-full rounded-3xl border border-on-forest/15 bg-cream/[0.05] p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/70 hover:bg-cream/[0.1]">

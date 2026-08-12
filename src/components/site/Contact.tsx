@@ -34,17 +34,20 @@ export function Contact() {
           </Reveal>
 
           <Reveal delay={90}>
-            <div className="flex h-full items-start gap-5 rounded-3xl border border-dashed border-border bg-card/60 p-8">
-              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-secondary text-olive">
+            <a
+              href="mailto:litoraneaambiental.ej@gmail.com"
+              className="group flex h-full items-start gap-5 rounded-3xl border border-border bg-card p-8 transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[var(--shadow-lift)]"
+            >
+              <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-secondary text-olive transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">
                 <Mail size={22} aria-hidden="true" />
               </span>
               <span className="min-w-0">
                 <span className="block text-sm tracking-wide text-muted-foreground">E-mail</span>
-                <span className="mt-1 block truncate font-display text-xl font-semibold text-forest/70">
-                  [inserir e-mail posteriormente]
+                <span className="mt-1 block truncate font-display text-xl font-semibold text-forest">
+                  litoraneaambiental.ej@gmail.com
                 </span>
               </span>
-            </div>
+            </a>
           </Reveal>
         </div>
       </div>
