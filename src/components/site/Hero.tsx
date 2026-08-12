@@ -1,4 +1,5 @@
 import { Reveal } from "./Reveal";
+import { Logo } from "./Logo";
 
 export function Hero() {
   return (
@@ -57,20 +58,7 @@ export function Hero() {
 
         <Reveal delay={200} className="relative">
           <div className="relative mx-auto aspect-square w-full max-w-sm rounded-[2rem] border border-on-forest/15 bg-cream/[0.06] p-6">
-            <svg viewBox="0 0 200 200" aria-hidden="true" className="h-full w-full">
-              <circle cx="100" cy="100" r="86" fill="none" stroke="var(--cream)" strokeWidth="0.8" opacity="0.35" />
-              <circle cx="100" cy="100" r="62" fill="var(--forest)" />
-              <path d="M100 152c0-34 18-56 46-63-3 37-19 57-46 63Z" fill="var(--olive)" />
-              <path d="M100 152c0-34-18-56-46-63 3 37 19 57 46 63Z" fill="var(--cream)" opacity="0.85" />
-              <path
-                d="M30 168c22-11 44-15 70-15s48 4 70 15"
-                fill="none"
-                stroke="var(--accent)"
-                strokeWidth="4"
-                strokeLinecap="round"
-              />
-              <circle cx="100" cy="56" r="10" fill="var(--accent)" />
-            </svg>
+            <Logo className="h-full w-full rounded-[1.4rem] object-cover" />
           </div>
         </Reveal>
       </div>

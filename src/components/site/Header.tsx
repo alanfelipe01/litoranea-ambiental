@@ -49,7 +49,7 @@ export function Header() {
     >
       <div className="mx-auto grid max-w-6xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 sm:px-8">
         <a href="#inicio" className="flex min-w-0 items-center gap-3 text-forest">
-          <Logo className="h-10 w-10 shrink-0" />
+          <Logo className="h-12 w-12 shrink-0 rounded-xl object-cover" />
           <span className="min-w-0">
             <span className="block truncate font-display text-base font-semibold tracking-tight text-forest">
               Litôranea Ambiental
