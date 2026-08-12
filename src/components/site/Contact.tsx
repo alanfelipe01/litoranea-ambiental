@@ -14,12 +14,12 @@ export function Contact() {
         </Reveal>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2">
-          <Reveal>
+          <Reveal className="min-w-0">
             <a
               href="https://instagram.com/litoraneaambiental"
               target="_blank"
               rel="noreferrer noopener"
-              className="group flex h-full items-start gap-5 rounded-3xl border border-border bg-card p-8 transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[var(--shadow-lift)]"
+              className="group flex h-full min-w-0 items-start gap-5 rounded-3xl border border-border bg-card p-8 transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[var(--shadow-lift)]"
             >
               <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-secondary text-olive transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">
                 <Instagram size={22} aria-hidden="true" />
@@ -33,10 +33,10 @@ export function Contact() {
             </a>
           </Reveal>
 
-          <Reveal delay={90}>
+          <Reveal delay={90} className="min-w-0">
             <a
               href="mailto:litoraneaambiental.ej@gmail.com"
-              className="group flex h-full items-start gap-5 rounded-3xl border border-border bg-card p-8 transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[var(--shadow-lift)]"
+              className="group flex h-full min-w-0 items-start gap-5 rounded-3xl border border-border bg-card p-8 transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[var(--shadow-lift)]"
             >
               <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-secondary text-olive transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">
                 <Mail size={22} aria-hidden="true" />
