@@ -7,7 +7,7 @@ import { Mission } from "@/components/site/Mission";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 
-const title = "Litôranea Ambiental — Empresa Júnior de Ciências Ambientais da UFC";
+const title = "Litorânea Ambiental — Empresa Júnior de Ciências Ambientais da UFC";
 const description =
   "Soluções ambientais desenvolvidas com conhecimento, inovação e compromisso com a sustentabilidade. PRAD, RAS, EVA e PGRS.";
 

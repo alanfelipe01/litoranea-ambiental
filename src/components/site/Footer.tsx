@@ -8,7 +8,7 @@ export function Footer() {
           <div className="flex min-w-0 items-start gap-4">
             <Logo className="h-16 w-16 shrink-0 rounded-2xl bg-cream object-cover" />
             <div className="min-w-0">
-              <p className="font-display text-xl font-semibold">Litôranea Ambiental</p>
+              <p className="font-display text-xl font-semibold">Litorânea Ambiental</p>
               <p className="mt-1 text-sm text-on-forest/70">
                 Empresa Júnior de Ciências Ambientais — UFC
               </p>
@@ -46,7 +46,7 @@ export function Footer() {
           </p>
           <span className="mx-auto mt-8 block h-px w-24 bg-accent" />
           <p className="mt-8 text-xs text-on-forest/60">
-            © 2026 Litôranea Ambiental. Todos os direitos reservados.
+            © 2026 Litorânea Ambiental. Todos os direitos reservados.
           </p>
         </div>
       </div>

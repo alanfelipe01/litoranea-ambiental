@@ -15,7 +15,7 @@ export function About() {
             <Reveal>
               <p className="eyebrow">Quem Somos</p>
               <h2 className="mt-4 text-[clamp(2rem,5vw,3.25rem)] leading-[1.05] font-semibold tracking-tight text-forest">
-                Conheça a Litôranea
+                Conheça a Litorânea
               </h2>
               <span className="mt-6 block h-px w-24 bg-accent" />
             </Reveal>
@@ -23,7 +23,7 @@ export function About() {
           <div className="space-y-6 text-lg leading-relaxed text-foreground/80">
             <Reveal delay={80}>
               <p>
-                A Litôranea Ambiental é a nova Empresa Júnior do curso de Ciências Ambientais da
+                A Litorânea Ambiental é a nova Empresa Júnior do curso de Ciências Ambientais da
                 UFC.
               </p>
             </Reveal>

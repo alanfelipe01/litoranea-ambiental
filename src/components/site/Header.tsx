@@ -52,7 +52,7 @@ export function Header() {
           <Logo className="h-12 w-12 shrink-0 rounded-xl object-cover" />
           <span className="min-w-0">
             <span className="block truncate font-display text-base font-semibold tracking-tight text-forest">
-              Litôranea Ambiental
+              Litorânea Ambiental
             </span>
             <span className="block truncate text-[11px] tracking-wide text-muted-foreground">
               Empresa Júnior de Ciências Ambientais — UFC
