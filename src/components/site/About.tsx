@@ -1,9 +1,8 @@
 import { Reveal } from "./Reveal";
 
 const FACTS = [
-  { value: "2026", label: "Ano de fundação" },
-  { value: "UFC", label: "Universidade Federal do Ceará" },
   { value: "Ciências Ambientais", label: "Área de atuação" },
+  { value: "UFC", label: "Universidade Federal do Ceará" },
 ];
 
 export function About() {
@@ -37,7 +36,7 @@ export function About() {
           </div>
         </div>
 
-        <ul className="mt-16 grid gap-5 sm:grid-cols-3">
+        <ul className="mt-16 grid gap-5 sm:grid-cols-2">
           {FACTS.map((f, i) => (
             <Reveal as="li" key={f.value} delay={i * 90}>
               <div className="h-full rounded-2xl border border-border bg-card p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[var(--shadow-lift)]">
