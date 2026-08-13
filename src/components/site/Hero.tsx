@@ -3,7 +3,7 @@ import { Logo } from "./Logo";
 
 export function Hero() {
   return (
-    <section id="inicio" className="relative overflow-hidden bg-forest-deep pt-28 pb-20 sm:pt-36 sm:pb-28">
+    <section id="inicio" className="theme-bege relative overflow-hidden pt-28 pb-20 sm:pt-36 sm:pb-28">
       <svg
         aria-hidden="true"
         className="pointer-events-none absolute -right-24 -top-24 h-[520px] w-[520px] opacity-[0.5]"

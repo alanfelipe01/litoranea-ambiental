@@ -8,7 +8,7 @@ const FACTS = [
 
 export function About() {
   return (
-    <section id="quem-somos" className="bg-cream py-24 sm:py-32">
+    <section id="quem-somos" className="theme-verde py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div>

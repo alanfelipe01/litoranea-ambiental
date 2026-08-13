@@ -11,7 +11,7 @@ const VALUES = [
 
 export function Mission() {
   return (
-    <section id="missao-valores" className="relative overflow-hidden bg-forest py-24 sm:py-32">
+    <section id="missao-valores" className="theme-bege relative overflow-hidden py-24 sm:py-32">
       <svg
         aria-hidden="true"
         className="pointer-events-none absolute -left-20 top-10 h-72 w-72 opacity-30"

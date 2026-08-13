@@ -2,7 +2,7 @@ import { Logo } from "./Logo";
 
 export function Footer() {
   return (
-    <footer className="bg-forest-deep py-16 text-on-forest">
+    <footer className="theme-azul py-16 text-on-forest">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
           <div className="flex min-w-0 items-start gap-4">

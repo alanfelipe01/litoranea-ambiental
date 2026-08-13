@@ -16,7 +16,7 @@ const MEMBERS = [
 
 export function Team() {
   return (
-    <section id="equipe" className="bg-background py-24 sm:py-32">
+    <section id="equipe" className="theme-verde py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <p className="eyebrow">Equipe</p>
