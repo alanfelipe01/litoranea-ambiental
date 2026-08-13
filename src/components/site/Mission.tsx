@@ -44,7 +44,7 @@ export function Mission() {
         <ul className="mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {VALUES.map((v, i) => (
             <Reveal as="li" key={v.name} delay={i * 90}>
-              <div className="group h-full rounded-3xl border border-on-forest/15 bg-cream/[0.05] p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/70 hover:bg-cream/[0.1]">
+              <div className="group h-full rounded-3xl border border-border bg-card p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/70 hover:bg-secondary">
                 <span className="grid h-12 w-12 place-items-center rounded-2xl bg-accent/15 text-accent transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">
                   <v.Icon size={22} aria-hidden="true" />
                 </span>

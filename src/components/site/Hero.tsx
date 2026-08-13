@@ -57,7 +57,7 @@ export function Hero() {
         </div>
 
         <Reveal delay={200} className="relative">
-          <div className="relative mx-auto aspect-square w-full max-w-sm rounded-[2rem] border border-on-forest/15 bg-cream/[0.06] p-6">
+          <div className="relative mx-auto aspect-square w-full max-w-sm rounded-[2rem] border border-border bg-card p-6">
             <Logo className="h-full w-full rounded-[1.4rem] object-cover" />
           </div>
         </Reveal>
