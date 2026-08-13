@@ -43,17 +43,6 @@ export function Hero() {
               sustentabilidade.
             </p>
           </Reveal>
-          <Reveal delay={250}>
-            <ul className="mt-10 flex flex-wrap gap-x-8 gap-y-3 text-sm text-on-forest/70">
-              <li>PRAD</li>
-              <li className="text-accent">·</li>
-              <li>RAS</li>
-              <li className="text-accent">·</li>
-              <li>EVA</li>
-              <li className="text-accent">·</li>
-              <li>PGRS</li>
-            </ul>
-          </Reveal>
         </div>
 
         <Reveal delay={200} className="relative">

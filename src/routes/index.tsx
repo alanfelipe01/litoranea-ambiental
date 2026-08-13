@@ -6,7 +6,7 @@ import { Services } from "@/components/site/Services";
 import { HowWeWork } from "@/components/site/HowWeWork";
 import { Team } from "@/components/site/Team";
 import { Differentials } from "@/components/site/Differentials";
-import { Mission } from "@/components/site/Mission";
+
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 
@@ -39,7 +39,7 @@ function Index() {
         <HowWeWork />
         <Team />
         <Differentials />
-        <Mission />
+        
         <Contact />
       </main>
       <Footer />
