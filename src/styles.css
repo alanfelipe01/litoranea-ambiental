@@ -66,17 +66,18 @@
   --color-sand: var(--sand);
   --color-clay: var(--clay);
   --color-on-forest: var(--on-forest);
-  --font-display: "DoubleBass", "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Ananias", "Open Sans", ui-sans-serif, system-ui, sans-serif;
   --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
-/* Tipografia institucional: DoubleBass (títulos) */
+/* Tipografia institucional: Ananias (títulos) */
 @font-face {
-  font-family: "DoubleBass";
+  font-family: "Ananias";
   src:
-    url("/fonts/doublebass.woff2") format("woff2"),
-    url("/fonts/doublebass.woff") format("woff"),
-    url("/fonts/doublebass.otf") format("opentype");
+    url("/fonts/ananias.woff2") format("woff2"),
+    url("/fonts/ananias.woff") format("woff"),
+    url("/fonts/ananias.otf") format("opentype"),
+    url("/fonts/ananias.ttf") format("truetype");
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
