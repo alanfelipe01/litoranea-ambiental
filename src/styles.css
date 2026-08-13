@@ -161,7 +161,61 @@
   * {
     border-color: var(--color-border);
   }
+}
 
+/* Ciclo institucional de fundos: BEGE -> VERDE -> AZUL */
+.theme-bege {
+  background-color: var(--bege);
+  --foreground: #1b1d16;
+  --forest: var(--verde);
+  --muted-foreground: color-mix(in srgb, var(--verde) 80%, transparent);
+  --card: #fdfbf3;
+  --card-foreground: #1b1d16;
+  --border: color-mix(in srgb, var(--verde) 18%, transparent);
+  --secondary: color-mix(in srgb, var(--verde) 10%, transparent);
+  --secondary-foreground: var(--verde);
+  --olive: var(--verde);
+  --on-forest: #1b1d16;
+  --accent: var(--vermelho);
+  --accent-foreground: var(--bege);
+  color: var(--foreground);
+}
+
+.theme-verde {
+  background-color: var(--verde);
+  --foreground: var(--bege);
+  --forest: var(--bege);
+  --muted-foreground: color-mix(in srgb, var(--bege) 78%, transparent);
+  --card: color-mix(in srgb, var(--bege) 8%, transparent);
+  --card-foreground: var(--bege);
+  --border: color-mix(in srgb, var(--bege) 22%, transparent);
+  --secondary: color-mix(in srgb, var(--bege) 14%, transparent);
+  --secondary-foreground: var(--bege);
+  --olive: var(--bege);
+  --on-forest: var(--bege);
+  --accent: var(--bege);
+  --accent-foreground: var(--verde);
+  color: var(--foreground);
+}
+
+.theme-azul {
+  background-color: var(--azul);
+  --foreground: var(--bege);
+  --forest: var(--bege);
+  --muted-foreground: color-mix(in srgb, var(--bege) 78%, transparent);
+  --card: color-mix(in srgb, var(--bege) 8%, transparent);
+  --card-foreground: var(--bege);
+  --border: color-mix(in srgb, var(--bege) 22%, transparent);
+  --secondary: color-mix(in srgb, var(--bege) 14%, transparent);
+  --secondary-foreground: var(--bege);
+  --olive: var(--bege);
+  --on-forest: var(--bege);
+  --accent: var(--bege);
+  --accent-foreground: var(--azul);
+  color: var(--foreground);
+}
+
+@layer base {
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
