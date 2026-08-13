@@ -7,7 +7,7 @@ const NAV = [
   { id: "quem-somos", label: "Quem Somos" },
   { id: "servicos", label: "Serviços" },
   { id: "como-trabalhamos", label: "Como Trabalhamos" },
-  { id: "missao-valores", label: "Missão e Valores" },
+  { id: "equipe", label: "Nossa Equipe" },
   { id: "contato", label: "Contato" },
 ];
 
