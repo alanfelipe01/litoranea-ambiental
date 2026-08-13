@@ -50,7 +50,7 @@ export function HowWeWork() {
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {STEPS.map((step, i) => (
             <Reveal key={step.number} delay={i * 90}>
-              <article className="relative h-full rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/60 hover:shadow-[var(--shadow-lift)] sm:p-7">
+              <article className="group relative h-full rounded-3xl border border-border bg-card p-6 shadow-[var(--shadow-card)] transition-all duration-300 hover:-translate-y-1.5 hover:border-accent/60 hover:shadow-[var(--shadow-lift)] sm:p-7">
                 <div className="flex items-start justify-between gap-4">
                   <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-secondary text-olive transition-colors duration-300 group-hover:bg-accent group-hover:text-accent-foreground">
                     <step.Icon size={22} aria-hidden="true" />
