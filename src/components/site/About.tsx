@@ -1,14 +1,13 @@
 import { Reveal } from "./Reveal";
 
 const FACTS = [
-  { value: "2026", label: "Ano de fundação" },
-  { value: "UFC", label: "Universidade Federal do Ceará" },
   { value: "Ciências Ambientais", label: "Área de atuação" },
+  { value: "UFC", label: "Universidade Federal do Ceará" },
 ];
 
 export function About() {
   return (
-    <section id="quem-somos" className="bg-cream py-24 sm:py-32">
+    <section id="quem-somos" className="theme-verde py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div>
@@ -37,7 +36,7 @@ export function About() {
           </div>
         </div>
 
-        <ul className="mt-16 grid gap-5 sm:grid-cols-3">
+        <ul className="mt-16 grid gap-5 sm:grid-cols-2">
           {FACTS.map((f, i) => (
             <Reveal as="li" key={f.value} delay={i * 90}>
               <div className="h-full rounded-2xl border border-border bg-card p-7 transition-all duration-300 hover:-translate-y-1 hover:border-accent/60 hover:shadow-[var(--shadow-lift)]">

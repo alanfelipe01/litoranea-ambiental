@@ -34,7 +34,7 @@ const STEPS = [
 
 export function HowWeWork() {
   return (
-    <section id="como-trabalhamos" className="bg-cream py-24 sm:py-32">
+    <section id="como-trabalhamos" className="theme-bege py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <p className="eyebrow">Processo</p>
