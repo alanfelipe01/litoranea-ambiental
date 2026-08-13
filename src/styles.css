@@ -66,8 +66,20 @@
   --color-sand: var(--sand);
   --color-clay: var(--clay);
   --color-on-forest: var(--on-forest);
-  --font-display: "Fraunces", Georgia, serif;
-  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "DoubleBass", "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Tipografia institucional: DoubleBass (títulos) */
+@font-face {
+  font-family: "DoubleBass";
+  src:
+    url("/fonts/doublebass.woff2") format("woff2"),
+    url("/fonts/doublebass.woff") format("woff"),
+    url("/fonts/doublebass.otf") format("opentype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
@@ -223,7 +235,7 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     font-family: var(--font-display);
   }
 
