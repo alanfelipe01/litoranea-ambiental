@@ -1,7 +1,7 @@
 import { Reveal } from "./Reveal";
-import foto1 from "@/assets/foto1.jpeg.asset.json";
-import foto2 from "@/assets/foto2.jpeg.asset.json";
-import foto3 from "@/assets/foto3.jpeg.asset.json";
+import foto1 from "@/assets/foto1.jpeg";
+import foto2 from "@/assets/foto2.jpeg";
+import foto3 from "@/assets/foto3.jpeg";
 
 const MEMBERS = [
   { name: "Laiz dos Reis", role: "Presidente" },
@@ -30,20 +30,20 @@ export function Team() {
           <Reveal className="min-w-0">
             <div className="grid gap-4">
               <img
-                src={foto1.url}
+                src={foto1}
                 alt="Equipe da Litorânea Ambiental em atividade de campo"
                 loading="lazy"
                 className="h-64 w-full rounded-3xl object-cover shadow-[var(--shadow-card)] sm:h-80 lg:h-[22rem]"
               />
               <div className="grid grid-cols-2 gap-4">
                 <img
-                  src={foto2.url}
+                  src={foto2}
                   alt="Integrante da equipe operando drone em campo"
                   loading="lazy"
                   className="h-36 w-full rounded-2xl object-cover shadow-[var(--shadow-card)] sm:h-44"
                 />
                 <img
-                  src={foto3.url}
+                  src={foto3}
                   alt="Equipe realizando levantamento com drone em área arborizada"
                   loading="lazy"
                   className="h-36 w-full rounded-2xl object-cover shadow-[var(--shadow-card)] sm:h-44"
