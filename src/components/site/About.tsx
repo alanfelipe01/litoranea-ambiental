@@ -54,6 +54,7 @@ export function About() {
           ))}
         </ul>
       </div>
+      </div>
     </section>
   );
 }

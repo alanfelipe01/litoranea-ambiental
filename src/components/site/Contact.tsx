@@ -92,6 +92,7 @@ export function Contact() {
           </Reveal>
         </div>
       </div>
+      </div>
     </section>
   );
 }

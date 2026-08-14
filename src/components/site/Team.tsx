@@ -76,6 +76,7 @@ export function Team() {
           </Reveal>
         </div>
       </div>
+      </div>
     </section>
   );
 }
