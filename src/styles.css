@@ -66,22 +66,11 @@
   --color-sand: var(--sand);
   --color-clay: var(--clay);
   --color-on-forest: var(--on-forest);
-  --font-display: "Ananias", "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, ui-serif, serif;
   --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
 }
 
-/* Tipografia institucional: Ananias (títulos) */
-@font-face {
-  font-family: "Ananias";
-  src:
-    url("/fonts/ananias.woff2") format("woff2"),
-    url("/fonts/ananias.woff") format("woff"),
-    url("/fonts/ananias.otf") format("opentype"),
-    url("/fonts/ananias.ttf") format("truetype");
-  font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
+/* Tipografia institucional: Playfair Display (títulos) via Google Fonts */
 
 :root {
   --radius: 0.75rem;
