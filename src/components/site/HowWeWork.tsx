@@ -1,5 +1,6 @@
 import { Search, FileText, Users, FileCheck } from "lucide-react";
 import { Reveal } from "./Reveal";
+import { DecorContours } from "./Decor";
 
 const STEPS = [
   {

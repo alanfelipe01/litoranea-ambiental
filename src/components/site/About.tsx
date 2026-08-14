@@ -1,4 +1,5 @@
 import { Reveal } from "./Reveal";
+import { DecorLeaf, DecorDots } from "./Decor";
 
 const FACTS = [
   { value: "Ciências Ambientais", label: "Área de atuação" },
@@ -7,7 +8,10 @@ const FACTS = [
 
 export function About() {
   return (
-    <section id="quem-somos" className="theme-verde py-24 sm:py-32">
+    <section id="quem-somos" className="theme-verde relative overflow-hidden py-24 sm:py-32">
+      <DecorLeaf className="-right-16 top-8 h-64 w-64 opacity-70 sm:h-80 sm:w-80" />
+      <DecorDots className="bottom-10 left-4 hidden h-24 w-24 opacity-60 lg:block" />
+      <div className="relative">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid gap-12 lg:grid-cols-[0.9fr_1.1fr]">
           <div>

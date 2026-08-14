@@ -1,9 +1,13 @@
 import { Instagram, Mail, MapPin } from "lucide-react";
 import { Reveal } from "./Reveal";
+import { DecorRings, DecorContours } from "./Decor";
 
 export function Contact() {
   return (
-    <section id="contato" className="theme-verde py-24 sm:py-32">
+    <section id="contato" className="theme-verde relative overflow-hidden py-24 sm:py-32">
+      <DecorRings className="-right-28 -top-28 h-80 w-80 opacity-60 sm:h-[26rem] sm:w-[26rem]" />
+      <DecorContours className="bottom-0 left-0 h-40 w-full opacity-70" />
+      <div className="relative">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <p className="eyebrow">Contato</p>

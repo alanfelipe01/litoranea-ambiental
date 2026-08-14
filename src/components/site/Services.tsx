@@ -7,6 +7,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import { Reveal } from "./Reveal";
+import { DecorRings, DecorHills } from "./Decor";
 
 const CATEGORIES = [
   {
