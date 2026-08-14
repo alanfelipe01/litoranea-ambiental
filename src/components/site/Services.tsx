@@ -7,6 +7,7 @@ import {
   ChevronDown,
 } from "lucide-react";
 import { Reveal } from "./Reveal";
+import { DecorRings, DecorHills } from "./Decor";
 
 const CATEGORIES = [
   {
@@ -137,6 +138,8 @@ export function Services() {
 
   return (
     <section id="servicos" className="theme-azul relative overflow-hidden py-24 sm:py-32">
+      <DecorRings className="-left-32 top-10 h-80 w-80 opacity-50" />
+      <DecorHills className="-right-20 bottom-[-70px] h-72 w-72 opacity-60" />
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <p className="eyebrow">Serviços</p>

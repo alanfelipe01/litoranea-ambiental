@@ -1,5 +1,6 @@
 import { Search, FileText, Users, FileCheck } from "lucide-react";
 import { Reveal } from "./Reveal";
+import { DecorContours } from "./Decor";
 
 const STEPS = [
   {
@@ -34,7 +35,9 @@ const STEPS = [
 
 export function HowWeWork() {
   return (
-    <section id="como-trabalhamos" className="theme-bege py-24 sm:py-32">
+    <section id="como-trabalhamos" className="theme-bege relative overflow-hidden py-24 sm:py-32">
+      <DecorContours className="left-0 top-1/2 h-48 w-full -translate-y-1/2 opacity-70" />
+      <div className="relative">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <p className="eyebrow">Processo</p>
@@ -70,6 +73,7 @@ export function HowWeWork() {
             </Reveal>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

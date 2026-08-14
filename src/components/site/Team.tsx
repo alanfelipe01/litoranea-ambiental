@@ -2,6 +2,7 @@ import { Reveal } from "./Reveal";
 import foto1 from "@/assets/foto1.jpeg";
 import foto2 from "@/assets/foto2.jpeg";
 import foto3 from "@/assets/foto3.jpeg";
+import { DecorHills, DecorDots } from "./Decor";
 
 const MEMBERS = [
   { name: "Laiz dos Reis", role: "Presidente" },
@@ -16,7 +17,10 @@ const MEMBERS = [
 
 export function Team() {
   return (
-    <section id="equipe" className="theme-verde py-24 sm:py-32">
+    <section id="equipe" className="theme-verde relative overflow-hidden py-24 sm:py-32">
+      <DecorHills className="-left-20 bottom-[-60px] h-72 w-72 opacity-70" />
+      <DecorDots className="right-6 top-12 hidden h-24 w-24 opacity-50 lg:block" />
+      <div className="relative">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <p className="eyebrow">Equipe</p>
@@ -71,6 +75,7 @@ export function Team() {
             </div>
           </Reveal>
         </div>
+      </div>
       </div>
     </section>
   );
