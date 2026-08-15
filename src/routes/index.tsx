@@ -37,8 +37,8 @@ function Index() {
         <About />
         <Services />
         <HowWeWork />
-        <Team />
         <Differentials />
+        <Team />
         
         <Contact />
       </main>
