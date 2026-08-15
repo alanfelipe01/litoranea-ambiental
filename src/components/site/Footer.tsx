@@ -1,18 +1,15 @@
-import { Logo } from "./Logo";
+import { LogoFull } from "./LogoFull";
 
 export function Footer() {
   return (
     <footer className="theme-azul py-16 text-on-forest">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
-          <div className="flex min-w-0 items-start gap-4">
-            <Logo className="h-16 w-16 shrink-0 rounded-2xl bg-cream object-cover" />
-            <div className="min-w-0">
-              <p className="font-display text-xl font-semibold">Litorânea Ambiental</p>
-              <p className="mt-1 text-sm text-on-forest/70">
-                Empresa Júnior de Ciências Ambientais — UFC
-              </p>
-            </div>
+          <div className="min-w-0">
+            <LogoFull className="h-auto w-full max-w-[320px] object-contain [filter:brightness(0)_invert(1)]" />
+            <p className="mt-4 text-sm text-on-forest/70">
+              Empresa Júnior de Ciências Ambientais — UFC
+            </p>
           </div>
 
           <div className="space-y-4 text-sm">
