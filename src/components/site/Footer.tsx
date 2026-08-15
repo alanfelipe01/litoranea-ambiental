@@ -6,7 +6,9 @@ export function Footer() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <div className="grid gap-10 md:grid-cols-[1.2fr_0.8fr]">
           <div className="min-w-0">
-            <LogoFull className="h-auto w-full max-w-[320px] object-contain [filter:brightness(0)_invert(1)]" />
+            <span className="block w-fit rounded-2xl bg-[var(--bege)] px-5 py-4">
+              <LogoFull className="h-auto w-full max-w-[280px] object-contain" />
+            </span>
             <p className="mt-4 text-sm text-on-forest/70">
               Empresa Júnior de Ciências Ambientais — UFC
             </p>
