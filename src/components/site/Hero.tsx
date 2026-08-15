@@ -1,5 +1,5 @@
 import { Reveal } from "./Reveal";
-import { Logo } from "./Logo";
+import { LogoFull } from "./LogoFull";
 
 export function Hero() {
   return (
@@ -46,8 +46,8 @@ export function Hero() {
         </div>
 
         <Reveal delay={200} className="relative">
-          <div className="relative mx-auto aspect-square w-full max-w-sm rounded-[2rem] border border-border bg-card p-6">
-            <Logo className="h-full w-full rounded-[1.4rem] object-cover" />
+          <div className="relative mx-auto flex aspect-square w-full max-w-sm items-center justify-center p-6">
+            <LogoFull className="h-auto w-full object-contain" />
           </div>
         </Reveal>
       </div>
