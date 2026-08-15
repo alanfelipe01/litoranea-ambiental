@@ -30,7 +30,7 @@ const ITEMS = [
 
 export function Differentials() {
   return (
-    <section id="diferenciais" className"theme-verde py-24 sm:py-32">
+    <section id="diferenciais" className="theme-verde py-24 sm:py-32">
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Reveal>
           <p className="eyebrow">Diferenciais</p>
