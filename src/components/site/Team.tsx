@@ -17,7 +17,7 @@ const MEMBERS = [
 
 export function Team() {
   return (
-    <section id="equipe" className="theme-verde relative overflow-hidden py-24 sm:py-32">
+    <section id="equipe" className="theme-azul relative overflow-hidden py-24 sm:py-32">
       <DecorHills className="-left-20 bottom-[-60px] h-72 w-72 opacity-70" />
       <DecorDots className="right-6 top-12 hidden h-24 w-24 opacity-50 lg:block" />
       <div className="relative">
